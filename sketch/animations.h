@@ -10,4 +10,5 @@
 #include "animation_flashing.h"
 #include "animation_random.h"
 #include "animation_sectionslideleft.h"
+#include "animation_sectionslideright.h"
 #endif

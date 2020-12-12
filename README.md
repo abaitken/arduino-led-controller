@@ -6,7 +6,6 @@ Various animations, patterns and timings for addressable LED lights.
 
 - Implement animations:
     - Nightrider
-        - Section move right w/ lit length
 	- Slide left
 	- Slide right
     - Loop around
