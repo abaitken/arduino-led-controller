@@ -5,7 +5,7 @@ Various animations, patterns and timings for addressable LED lights.
 ## TODO
 
 - Implement animations:
-	- Loop/shift entire pattern
+	- Loop/shift entire pattern right
     - Combination animations
         - One followed by another
     - Nightrider

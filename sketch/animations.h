@@ -13,4 +13,5 @@
 #include "animation_sectionslideright.h"
 #include "animation_slideleft.h"
 #include "animation_slideright.h"
+#include "animation_shiftleft.h"
 #endif
