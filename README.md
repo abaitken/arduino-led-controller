@@ -5,7 +5,6 @@ Various animations, patterns and timings for addressable LED lights.
 ## TODO
 
 - Implement animations:
-	- Loop/shift entire pattern right
     - Combination animations
         - One followed by another
     - Nightrider
@@ -19,6 +18,7 @@ Various animations, patterns and timings for addressable LED lights.
 - Implement patterns
     - Colour stops with various different calculations for inbetween colours
     - Colour sections
+	- Store random colour values to support consistent colours when shifting
 - Define sequences via parsing a special string
 	- e.g. 'A=FR;P=R;T=C,25;A=FL' (Animation fill right, Palette is random, Timing is constant 25ms, then animate Fill left, then repeat)
 	- Subsequent palettes/timings just change the current settings until overridden

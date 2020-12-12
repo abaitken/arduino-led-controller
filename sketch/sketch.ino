@@ -20,6 +20,7 @@ AnimationSectionSlideRight g_sectionSlideRight;
 AnimationSlideLeft g_slideLeft;
 AnimationSlideRight g_slideRight;
 AnimationShiftLeft g_shiftLeft;
+AnimationShiftRight g_shiftRight;
 
 Animation *g_animations[] = {
     &g_randomReveal, &g_flashPattern,
@@ -29,7 +30,7 @@ Animation *g_animations[] = {
     &g_fadeOut, &g_fadeIn,
     &g_sectionSlideLeft, &g_sectionSlideRight,
     &g_slideLeft, &g_slideRight,
-    &g_shiftLeft};
+    &g_shiftLeft, &g_shiftRight};
 const uint8_t g_animationCount = sizeof(g_animations) / sizeof(Animation *);
 Animation *g_currentAnimation = NULL;
 
