@@ -3,6 +3,7 @@
 #include "patterns.h"
 #include "timings.h"
 #include "random.h"
+#include "network.h"
 
 // Animations
 AnimationRandomReveal g_randomReveal;
@@ -88,6 +89,7 @@ void setup()
   SetupLEDs();
   g_clearColorPattern.Color = CRGB::Black;
   NextScene();
+  SetupNetwork();
 }
 
 void loop()

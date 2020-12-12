@@ -2,6 +2,14 @@
 
 Various animations, patterns and timings for addressable LED lights.
 
+## Before Building
+
+The sketch contains secrets used when connecting to a wifi network. 
+
+To successfully build the sketch copy the secrets-example.h file and rename it as secrets.h. 
+
+Edit the file and replace the secrets as required. secrets.h must be ignored from the commit.
+
 ## TODO
 
 - Implement animations:
