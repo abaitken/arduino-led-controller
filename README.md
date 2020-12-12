@@ -5,7 +5,6 @@ Various animations, patterns and timings for addressable LED lights.
 ## TODO
 
 - Implement animations:
-	- Slide right
 	- Loop/shift entire pattern
     - Combination animations
         - One followed by another
