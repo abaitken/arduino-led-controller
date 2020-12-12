@@ -88,8 +88,13 @@ void setup()
   Randomise();
   SetupLEDs();
   g_clearColorPattern.Color = CRGB::Black;
-  NextScene();
   SetupNetwork();
+
+  for (int i = 0; i < LED_COUNT; i++)
+    fill_solid(g_leds, LED_COUNT, CRGB::Black);
+  FastLED.show();
+  
+  NextScene();
 }
 
 void loop()

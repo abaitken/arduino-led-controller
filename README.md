@@ -10,6 +10,22 @@ To successfully build the sketch copy the secrets-example.h file and rename it a
 
 Edit the file and replace the secrets as required. secrets.h must be ignored from the commit.
 
+## Sequence start
+
+When the sequence begins the lights with switch off.
+
+Followed by indexed leds indicating states:
+
+- 0: Lighting initialisation
+ - Green: OK
+- 1: Network initialisation
+ - Red: Start/No shield detected
+ - Orange: Connecting
+ - Green: Connected
+
+After this the lights will be reset off and the sequences will begin.
+
+
 ## TODO
 
 - Implement animations:
