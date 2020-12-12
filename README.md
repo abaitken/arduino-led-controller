@@ -17,11 +17,11 @@ When the sequence begins the lights with switch off.
 Followed by indexed leds indicating states:
 
 - 0: Lighting initialisation
- - Green: OK
+  - Green: OK
 - 1: Network initialisation
- - Red: Start/No shield detected
- - Orange: Connecting
- - Green: Connected
+  - Red: Start/No shield detected
+  - Orange: Connecting
+  - Green: Connected
 
 After this the lights will be reset off and the sequences will begin.
 
@@ -58,3 +58,5 @@ After this the lights will be reset off and the sequences will begin.
 - Sometimes there is a long pause on a single pattern
 - Sometimes there an odd color left over on the first/last LED
 - Fade out animation does not seem to be working
+- Some of the new animations are not working or causing the arduino to crash and reboot
+- Network connection is getting stuck
