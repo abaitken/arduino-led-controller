@@ -25,6 +25,7 @@ Various animations, patterns and timings for addressable LED lights.
 - Define patterns via parsing a special string
 	- e.g. 'A=FR;P=R;T=C,25;A=FL' (Animation fill right, Palette is random, Timing is constant 25ms, then animate Fill left, then repeat)
 	- Subsequent palettes/timings just change the current settings until overridden
+	- Provide brightness override
 - Implement LAN communication
 	- Implement wifi module
 	- Implement a technique to send instructions
@@ -35,3 +36,4 @@ Various animations, patterns and timings for addressable LED lights.
 
 - Sometimes there is a long pause on a single pattern
 - Sometimes there an odd color left over on the first/last LED
+- Fade out animation does not seem to be working
