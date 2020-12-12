@@ -6,7 +6,7 @@ TimingConstant::TimingConstant(void)
 
 }
 
-void TimingConstant::Reset()
+void TimingConstant::Reset(long totalSteps)
 {
 
 }

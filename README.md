@@ -13,14 +13,13 @@ Various animations, patterns and timings for addressable LED lights.
         - One followed by another
     - Twinkling
 - Implement timings
-    - Speed up
     - Slow down
     - Repeating set of values (e.g. 25ms then 10ms then 50ms, repeat)
     - Add microphone and support bpm?
 - Implement patterns
     - Colour stops with various different calculations for inbetween colours
     - Colour sections
-- Define patterns via parsing a special string
+- Define sequences via parsing a special string
 	- e.g. 'A=FR;P=R;T=C,25;A=FL' (Animation fill right, Palette is random, Timing is constant 25ms, then animate Fill left, then repeat)
 	- Subsequent palettes/timings just change the current settings until overridden
 	- Provide brightness override

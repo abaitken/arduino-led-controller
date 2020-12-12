@@ -7,7 +7,7 @@ class TimingConstant : public Timing
 {
 public:
     TimingConstant(void);
-    virtual void Reset();
+    virtual void Reset(long totalSteps);
     virtual void Delay();
 };
 

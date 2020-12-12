@@ -31,8 +31,9 @@ Pattern *g_currentPattern = &g_clearColorPattern;
 
 // Timings
 TimingConstant g_constantTiming;
+TimingSpeedUp g_speedUp;
 
-Timing *g_timings[] = {&g_constantTiming};
+Timing *g_timings[] = {&g_constantTiming, &g_speedUp};
 const uint8_t g_timingCount = sizeof(g_timings) / sizeof(Timing *);
 Timing *g_currentTiming = NULL;
 
@@ -62,8 +63,8 @@ void NextScene()
   g_currentAnimation = g_animations[random(0, g_animationCount)];
 
   g_currentPattern->Reset();
-  g_currentAnimation->Begin(g_currentPattern);
-  g_currentTiming->Reset();
+  long totalSteps = g_currentAnimation->Begin(g_currentPattern);
+  g_currentTiming->Reset(totalSteps);
 }
 
 void setup()

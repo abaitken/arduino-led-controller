@@ -6,7 +6,7 @@ class Timing
     public:
         Timing(void);
         virtual ~Timing(void) { }
-        virtual void Reset() = 0;
+        virtual void Reset(long totalSteps) = 0;
         virtual void Delay() = 0;
 };
 
