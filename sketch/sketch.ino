@@ -32,8 +32,9 @@ Pattern *g_currentPattern = &g_clearColorPattern;
 // Timings
 TimingConstant g_constantTiming;
 TimingSpeedUp g_speedUp;
+TimingSlowDown g_slowDown;
 
-Timing *g_timings[] = {&g_constantTiming, &g_speedUp};
+Timing *g_timings[] = {&g_constantTiming, &g_speedUp, &g_slowDown};
 const uint8_t g_timingCount = sizeof(g_timings) / sizeof(Timing *);
 Timing *g_currentTiming = NULL;
 

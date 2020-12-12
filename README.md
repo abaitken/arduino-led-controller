@@ -13,7 +13,6 @@ Various animations, patterns and timings for addressable LED lights.
         - One followed by another
     - Twinkling
 - Implement timings
-    - Slow down
     - Repeating set of values (e.g. 25ms then 10ms then 50ms, repeat)
     - Add microphone and support bpm?
 - Implement patterns
