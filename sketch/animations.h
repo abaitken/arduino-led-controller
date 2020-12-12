@@ -9,4 +9,5 @@
 #include "animation_fillright.h"
 #include "animation_flashing.h"
 #include "animation_random.h"
+#include "animation_sectionslideleft.h"
 #endif
