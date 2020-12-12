@@ -12,10 +12,11 @@ AnimationFillRight g_fillRight;
 AnimationInstant g_fillInstant;
 AnimationEdgeIn g_edgeIn;
 AnimationFadeOut g_fadeOut;
+AnimationFadeIn g_fadeIn;
 AnimationCenterOut g_centerOut;
 AnimationInstant g_instant;
 
-Animation *g_animations[] = {&g_randomReveal, &g_flashPattern, &g_fillLeft, &g_fillRight, &g_edgeIn, &g_centerOut, &g_instant, &g_fadeOut};
+Animation *g_animations[] = {&g_randomReveal, &g_flashPattern, &g_fillLeft, &g_fillRight, &g_edgeIn, &g_centerOut, &g_instant, &g_fadeOut, &g_fadeIn};
 const uint8_t g_animationCount = sizeof(g_animations) / sizeof(Animation *);
 Animation *g_currentAnimation = NULL;
 

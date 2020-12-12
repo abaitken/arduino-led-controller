@@ -1,15 +1,15 @@
-#ifndef __ANIMATION_FADEOUT_H
-#define __ANIMATION_FADEOUT_H
+#ifndef __ANIMATION_FADEIN_H
+#define __ANIMATION_FADEIN_H
 
 #include "animation.h"
 
-class AnimationFadeOut : public Animation
+class AnimationFadeIn : public Animation
 {
 private:
     int _brightness;
 
 public:
-    AnimationFadeOut(void);
+    AnimationFadeIn(void);
     virtual ANIMATION_STATE Step(Pattern* pattern);
     virtual long Begin(Pattern* pattern);
 };

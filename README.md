@@ -12,7 +12,6 @@ Various animations, patterns and timings for addressable LED lights.
     - Combination animations
         - One followed by another
     - Twinkling
-    - Fade In
 - Implement timings
     - Speed up
     - Slow down

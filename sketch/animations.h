@@ -3,6 +3,7 @@
 #include "animation_centerout.h"
 #include "animation_edgein.h"
 #include "animation_fadeout.h"
+#include "animation_fadein.h"
 #include "animation_instant.h"
 #include "animation_fillleft.h"
 #include "animation_fillright.h"
