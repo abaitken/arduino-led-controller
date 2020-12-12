@@ -23,8 +23,9 @@ Animation *g_currentAnimation = NULL;
 // Patterns
 SolidColorPattern g_solidColorPattern;
 SolidColorPattern g_clearColorPattern;
+RandomColorsPattern g_randomColorsPattern;
 
-Pattern *g_patterns[] = {&g_solidColorPattern, &g_clearColorPattern};
+Pattern *g_patterns[] = {&g_solidColorPattern, &g_clearColorPattern, &g_randomColorsPattern};
 const uint8_t g_patternCount = sizeof(g_patterns) / sizeof(Pattern *);
 Pattern *g_currentPattern = &g_clearColorPattern;
 
@@ -48,6 +49,8 @@ void NextScene()
     i++;
   }
 
+  // TODO : Remove this?
+  // NOTE : Temporary implementation to prevent unlit/black colour being used in succession
   if (i >= 9)
   {
     nextPattern = &g_solidColorPattern;
