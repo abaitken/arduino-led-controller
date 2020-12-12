@@ -10,7 +10,11 @@ The colours which are applied across the LED strip
 
 ### Animation
 
-An animation is the way in which 
+An animation is the way in which the pattern is applied to the LED strip
+
+### Timing
+
+The delay in between each step of the animation
 
 ## Before Building
 
