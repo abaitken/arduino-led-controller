@@ -11,4 +11,5 @@
 #include "animation_random.h"
 #include "animation_sectionslideleft.h"
 #include "animation_sectionslideright.h"
+#include "animation_slideleft.h"
 #endif

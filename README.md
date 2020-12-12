@@ -5,12 +5,14 @@ Various animations, patterns and timings for addressable LED lights.
 ## TODO
 
 - Implement animations:
-    - Nightrider
-	- Slide left
 	- Slide right
-    - Loop around
+	- Loop/shift entire pattern
     - Combination animations
         - One followed by another
+    - Nightrider
+		- Combo sections slide left + slide irght
+    - Section Loop around
+		- Combo sections slide left/right multiple times
     - Twinkling
 - Implement timings
     - Repeating set of values (e.g. 25ms then 10ms then 50ms, repeat)
