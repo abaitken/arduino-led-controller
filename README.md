@@ -2,7 +2,25 @@
 
 Various animations, patterns and timings for addressable LED lights.
 
+## Concepts
+
+### Pattern
+
+The colours which are applied across the LED strip
+
+### Animation
+
+An animation is the way in which 
+
 ## Before Building
+
+### Constants
+
+- Update LED_COUNT (leds.h) with the number of LEDs on the strip
+- Update PIN_LED (leds.cpp) with the pin used to carry the LED signal
+- Update DPIN_ESP_RX and DPIN_ESP_TX (network.cpp) with the pins used to communicate with the wifi module
+
+### Secrets
 
 The sketch contains secrets used when connecting to a wifi network. 
 
@@ -24,7 +42,6 @@ Followed by indexed leds indicating states:
   - Green: Connected
 
 After this the lights will be reset off and the sequences will begin.
-
 
 ## TODO
 
@@ -52,6 +69,7 @@ After this the lights will be reset off and the sequences will begin.
 	- Implement a technique to send instructions
 		- Post a string to a simple web server with various patterns/palettes etc?
 		- Create RPI app to provide controls for sending string
+- Add circuit diagram
 
 ## Bugs
 
