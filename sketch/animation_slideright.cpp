@@ -1,8 +1,5 @@
 #include "animation_slideright.h"
 #include "leds.h"
-
-#define SECTION_LENGTH 10
-
 AnimationSlideRight::AnimationSlideRight(void)
 {
 }

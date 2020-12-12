@@ -1,8 +1,6 @@
 #include "animation_slideleft.h"
 #include "leds.h"
 
-#define SECTION_LENGTH 10
-
 AnimationSlideLeft::AnimationSlideLeft(void)
 {
 }
