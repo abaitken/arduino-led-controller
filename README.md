@@ -2,6 +2,10 @@
 
 Various animations, patterns and timings for addressable LED lights.
 
+
+Archived due to limitied dynamic memory, instead ported to .NET Core to run on a Raspberry Pi instead. Replacement can be found here [/abaitken/rpi-led-controller](https://github.com/abaitken/rpi-led-controller)
+
+
 ## Concepts
 
 ### Pattern
