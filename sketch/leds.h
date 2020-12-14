@@ -2,7 +2,7 @@
 #define __LEDS_H
 
 #define FASTLED_INTERNAL
-#include "FastLED.h"
+#include <FastLED.h>
 #include "colors.h"
 
 #define LED_COUNT      300
